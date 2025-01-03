@@ -54,15 +54,7 @@ export default function DropDown ({ user, saveState, handleLogout }) {
 
   return (
     <div>
-      <Button
-        aria-controls="customized-menu"
-        aria-haspopup="true"
-        variant="contained"
-        color="primary"
-        onClick={handleClick}
-      >
-        <FontAwesomeIcon className="text-white fa-2x" icon={faBars} />
-      </Button>
+      
       <StyledMenu
         id="customized-menu"
         anchorEl={anchorEl}
